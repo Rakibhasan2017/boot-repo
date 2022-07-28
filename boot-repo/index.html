@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap demo</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <style>
+        #img-costom{
+          filter: brightness(50%)
+        }  
+    </style>
   </head>
   <body>
      <!-- navbar start -->
@@ -40,8 +45,53 @@
           </div>
         </div>
       </nav>
+      
       <!-- navbar end -->
        <!-- image section start -->
+       <div class="container">  
+       <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active ">
+            <img src="imag2/cover-1.png" class="d-block w-100 img-fluid" alt="... " id="img-costom"> 
+          </div>
+         <div class="carousel-caption d-md-block d-flex flex-column align-items-center justify-content-center h-50 my-5">  
+            <h3 class="fs-2 fw-bold">Get Started Digital Learning</h3>
+            <p class="fs-5">It is a long established fact that a reader will be distracted by the readable 
+              content of a page when looking at its layout.</p>
+              <h3 class=" btn btn-primary my-1">Get Started</h3>
+          </div>
+          <div class="carousel-item">
+            <img src="imag2/cover-2.png" class="d-block w-100 img-fluid" alt="..." id="img-costom">
+          </div>
+          <div class="carousel-caption d-md-block d-flex flex-column align-items-center justify-content-center h-50 my-5">  
+            <h3 class="fs-2 fw-bold">Get Started Digital Learning</h3>
+            <p class="fs-5">It is a long established fact that a reader will be distracted by the readable 
+              content of a page when looking at its layout.</p>
+              <h3 class=" btn btn-primary my-1">Get Started</h3>
+          </div>
+          <div class="carousel-item">
+            <img src="imag2/cover-3.jpg" class="d-block w-100 img-fluid" alt="... " id="img-costom">
+          </div>
+          <div class="carousel-caption d-md-block d-flex flex-column align-items-center justify-content-center h-50 my-5">  
+            <h3 class="fs-2 fw-bold">Get Started Digital Learning</h3>
+            <p class="fs-5">It is a long established fact that a reader will be distracted by the readable 
+              content of a page when looking at its layout.</p> 
+               <h4 class="button btn btn-primary my-1">Get Started</h4>
+          </div>
+          
+        </div>
+        
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div> 
+     <!-- image section end -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
   </body>
 </html>
